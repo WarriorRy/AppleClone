@@ -1,0 +1,553 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+#navbar{
+    background-color: rgba(22, 22, 23, .8);
+    height:44px;
+    box-sizing: border-box;
+    position:fixed;
+    z-index:9999;
+    width:100%;
+}
+#navbar ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:2px 3px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size:0.8rem;
+}
+#navbar ul li a{
+    color:rgba(255, 255, 255, .66);
+    text-decoration: none;
+    display:block;
+    padding:11px 20px;
+    align-items:center;
+    font-weight: light;
+    border-radius: 20px;
+}
+
+.missed{
+    display: flex;
+    justify-content: center;
+    padding-top: 59px;
+    height:30px;
+    color: rgba(22, 22, 23, .8); 
+    font-size: 0.9rem;
+}
+.missed a{
+    text-decoration:none;
+    color: #06c;
+}
+ul img{
+    height:20px;
+    padding:11px 20px;
+}
+
+header .para{
+    text-align: center;
+    color:#1d1d1f;
+    padding: 13px;
+}
+header .para a{
+    text-decoration: none;
+}
+#A{
+    background-color: #f7f7fb;
+    height:582px;
+}
+header .text{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 75px;
+}
+.text h2{
+    font-size:3.3rem;
+}
+.text h3{
+    font-size:1.7rem;
+    font-weight: 100;
+    padding:10px; 
+}
+.text a{
+    text-decoration: none;
+    padding:0px 20px;
+    font-size:1.3rem;
+    color: #06c;
+}
+.macbook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:122px;
+}
+.macbook img{
+    height:auto;
+    width:63%;
+}
+
+#B{
+    background-color: #f7f7fb;
+    height:582px;
+    margin:13px 0px; 
+}
+
+header .text1{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 45px;
+}
+.text1 h2{
+    font-size:3.3rem;
+}
+.text1 h3{
+    font-size:1.7rem;
+    font-weight: 100;
+    padding:10px; 
+}
+.text1 a{
+    text-decoration: none;
+    font-size:1.3rem;
+    color: #06c;
+}
+.ipad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:54px;
+}
+.ipad img{
+    height:150px;
+    width:24%;
+}
+#C{
+    background-color: #0a0a0a;
+    height:548px;
+}
+header .phone{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 45px;
+}
+.phone h2{
+    font-size:3.3rem;
+    color:white;
+}
+.phone h3{
+    font-size:1.7rem;
+    font-weight: 100;
+    color:white;
+    padding:10px; 
+}
+.phone a{
+    text-decoration: none;
+    padding:0px 20px;
+    font-size:1.3rem;
+    color: #06c;
+}
+.iphone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:48px;
+}
+.iphone img{
+    height:317px;
+    width:63%;
+}
+
+#D{
+    height:520px;
+    display: inline-block;
+    width:50%;
+}
+header .switch{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 45px;
+    padding-left:20px;
+}
+.switch h2{
+    font-size:2.53rem;
+}
+.switch h3{
+    font-size:1.2rem;
+    font-weight: 100;
+    padding:10px; 
+}
+.switch a{
+    text-decoration: none;
+    padding:0px 20px;
+    font-size:1.3rem;
+    color: #06c;
+}
+.faces {
+    display: flex;
+    margin-left:115px;
+    justify-content: left;
+    padding-top:48px;
+}
+.faces img{
+    height:auto;
+    width:84%
+    ;
+}
+
+#E{
+    height:520px;
+    display: inline-block;
+    width:49%;
+}
+header .iphone14{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right;
+    position: relative;
+}
+#E h2{
+    font-size:2.53rem;
+}
+#E h3{
+    font-size:1.2rem;
+    font-weight: 100;
+    padding:10px; 
+}
+#E a{
+    text-decoration: none;
+    padding:0px 20px;
+    font-size:1.3rem;
+    color: #06c;
+}
+.phones {
+    display: flex;
+    justify-content: right;
+    padding-top:48px;
+    margin-right:130px;
+}
+.phones img{
+    height:auto;
+    width:84%;
+}
+
+#F{
+    height:509px;
+    display: inline-block;
+    width:49%;
+    background-color: black;
+    margin-left:13px;
+    padding-top:140px;
+    margin-right:0px;
+}
+header .ipadpro{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+}
+
+#F h2{
+    font-size:2.53rem;
+}
+#F a{
+    text-decoration: none;
+    padding:0px 20px;
+    font-size:1.3rem;
+    color: #06c;
+    margin-top:20px;
+}
+.ipads {
+    display: flex;
+    justify-content: right;
+    padding-top:48px;
+    margin-right:80px;
+}
+.ipads img{
+    height:auto;
+    width:99%;
+    padding-bottom:90px;
+}
+
+#G{
+    height:500px;
+    display: inline-block;
+    width:49%;
+    background-color: black;
+    padding-top:150px;
+}
+header .watchseries{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right;
+    position: relative;
+}
+#G h3{
+    font-size:1.2rem;
+    font-weight: 100;
+    color:white;
+    padding:10px; 
+}
+#G a{
+    text-decoration: none;
+    padding:0px 20px;
+    font-size:1.3rem;
+    color: #06c;
+}
+.iwatch {
+    display: flex;
+    justify-content: right;
+    padding-top:48px;
+    margin-right:130px;
+}
+.iwatch img{
+    height:auto;
+    width:70%;
+}
+
+#H{
+    height:520px;
+    display: inline-block;
+    padding-top:130px;
+    width:49%;
+}
+#H .tradeimg{
+    width:30%;
+    height:auto;
+}
+header .trade{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right;
+    position: relative;
+}
+#H h3{
+    font-size:1.2rem;
+    font-weight: 100;
+    padding:10px; 
+}
+#H a{
+    text-decoration: none;
+    padding:0px 20px;
+    font-size:1.3rem;
+    color: #06c;
+}
+.phones2 {
+    display: flex;
+    justify-content: right;
+    /* padding-top:48px; */
+     margin-left:135px; 
+}
+.phones2 img{
+    height:auto;
+    width:120%;
+    margin-top:75px;
+}
+
+#J{
+    height:502px;
+    display: inline-block;
+    width:49%;
+    padding-top: 179px;
+    background-color: black;
+    margin-left:13px;
+}
+header .alexa{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    justify-content: right;
+    position: relative;
+}
+#J h2{
+    font-size:2.53rem;
+}
+#J h3{
+    font-size:1.2rem;
+    font-weight: 100;
+    padding:10px; 
+}
+#J a{
+    text-decoration: none;
+    padding:0px 20px;
+    font-size:1.3rem;
+    color: #06c;
+}
+.alexaimg {
+    display: flex;
+    justify-content: right;
+    padding-top:48px;
+    margin-right:70px; 
+}
+.alexaimg img{
+    height:auto;
+    width:92%;
+}
+
+
+.fifth{
+    position: relative;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.main{
+    width:90%;
+    height:700px;
+    margin:auto;
+    position:relative;
+    overflow:hidden;
+   
+}
+.slide{
+    margin-top: 50px;
+    width:100%;
+    height:85%;
+    position: absolute;
+}
+.b{
+    color:white;
+    border:2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight:500;
+    padding:5px 8px;
+    opacity:0.5;
+}
+#L{
+    padding: 0 22px;
+    padding-bottom: 21px;
+    overflow: hidden;
+}
+footer .para{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    text-align:left;
+    color:#6e6e73;
+    box-sizing: border-box;
+    pointer-events: auto;
+    letter-spacing: normal;
+    margin:20px 250px 20px 250px;
+}
+footer .para1{
+    margin-bottom:12px;
+}
+footer .para2{
+    margin-bottom:12px;
+}
+footer .para3{
+    margin-bottom:12px;
+}
+#woah{
+    max-width: 980px;
+    margin: 0 auto;
+}
+footer .section-item a{
+    text-decoration: none;
+}
+footer .section-item a:hover{
+    text-decoration: underline;
+}
+footer a{
+    color:#424245;
+}
+footer .column{
+    width: 20%;
+    float: left;
+}
+footer .column .column-section h3{
+    font-size: 12px;
+    position: relative;
+    z-index: 1;
+    font-weight:600;
+    margin-bottom: 6px;
+    margin-top: 23px;
+}
+.product-list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.product-list li {
+  margin-bottom: 10px;
+  line-height: 1;
+}
+.product-list a {
+  color: #555;
+  display: inline-block;
+  font-size: 12px;
+}
+.product-list a:hover {
+  color: #333;
+}
+.M {
+    padding-top: 34px;
+    padding-bottom: 21px;
+    color: #888;
+    max-width: 980px;
+    margin: 0 auto;
+    font-size: 12.4px; 
+  } 
+ .m-text {
+    margin-bottom: 7px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d6d6d6;
+  } 
+ .m-text a{
+    color: #06c; 
+  } 
+  .spantext a{
+    text-decoration:none;
+  }
+  .spantext{
+    padding-bottom:30px;
+  } 
+  .copyright {
+      margin-right: 30px;
+      float: left;
+      margin-top: 3px;
+  } 
+  .spantext{
+    float: left;
+  } 
+  .spantext a {
+    border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+    display: inline-block;
+    margin-top: 3px;
+    white-space: nowrap;
+    color: #555;
+  } 
+  .spantext a:last-child {
+    border-right: none;
+  } 
+  .spantext a:hover {
+    color: #333;
+  } 
+
+  
